@@ -1,0 +1,48 @@
+.listed {
+  display: flex;
+  border: 1px solid rgb(235, 223, 223);
+  justify-content: space-between;
+  align-items: center;
+  outline: none;
+  padding: 10px;
+  box-shadow: lightgrey;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.title {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: black;
+  margin-left: 10px;
+}
+.middle {
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+}
+.time {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: black;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+}
+.deleteButton {
+  height: 40px;
+  width: 40px;
+}
+.oneside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.leftSide {
+  display: flex;
+  flex-direction: row;
+}

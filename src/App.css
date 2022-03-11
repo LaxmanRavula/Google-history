@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.total {
+  display: flex;
+  flex-direction: column;
+}
+.Top {
+  display: flex;
+  background-color: rgb(58, 58, 119);
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  padding: 60px;
+}
+.image1 {
+  height: 30px;
+  width: 120px;
+}
+
+.image2 {
+  height: 40px;
+  width: 40px;
+  outline: none;
+  border: 1px solid;
+  border-width: 0px;
+  margin-left: 10px;
+}
+
+.searchBar {
+  height: 50px;
+  width: 800px;
+  border: 1px solid;
+  outline: none;
+  display: flex;
+  background-color: rgb(5, 5, 63);
+  align-items: center;
+  margin-left: 250px;
+}
+
+.searchIcon {
+  height: 50px;
+  width: 400px;
+  background-color: transparent;
+  outline: none;
+  border-width: 0;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 20px;
+  color: white;
+}
